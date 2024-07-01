@@ -1,5 +1,5 @@
 # python-ctypes-boringssl
-a demo inspired by https://github.com/jonatron/boringssl-python-cffi/tree/master
+a demo inspired by https://github.com/jonatron/boringssl-python-cffi/tree/master.. this one is closer to chrome's clienthello, but not there yet. I could not get certificate compression working. 
 
 To get my tls clienthello as similar to chromes, i had to bring out boringssl and attempt to use it with python. The backbone utilizing httpcore's functions is pretty much taken from the repo above, which is the only learning material for this type of project. 
 
