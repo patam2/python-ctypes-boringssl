@@ -14,3 +14,8 @@ self.SSL_do_handshake.argtypes = [SSL]
 self.SSL_do_handshake.restype = c_int
 ```
 
+What's implemented from boringssl:
+* GREASE
+* ALPS
+* ECDH
+* min proto settings
